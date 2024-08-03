@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
@@ -11,17 +11,17 @@
   <script type="text/javascript">
     window._arabica = {};
   </script>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/gmApi.js"></script>
-  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="gmApi.js"></script>
+  <script type="text/javascript" src="utils.js"></script>
   <script type="text/javascript">
     var module = _arabica.fetchParamFromUrl("module");
     _arabica.host =
       GmApi.gmDevUrl() || module || "https://cloud.bluestacks.com";
   </script>
-  <script type="text/javascript" src="localization/index.js"></script>
-  <script type="text/javascript" src="js/localize.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="localize.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
@@ -62,7 +62,7 @@
             <ul class="flex gameList wrap" id="installedApps">
               <li class="pointer" style="width: 100px;" onclick="handleClick('playStore')">
                 <div class="installedGame">
-                  <img src="./images/googlePlayStore.gif" alt="gameImage" />
+                  <img src="googlePlayStore.gif" alt="gameImage" />
                 </div>
                 <p class="bold ellipsis gameName">Google Play Store</p>
               </li>
@@ -71,9 +71,9 @@
               <li class="pointer" style="width: 100px;" onClick="openSystemApps();">
                 <div class="installedGame appSleeveContainer gameCenterBg">
                   <div class="flex wrap vrtlCenter appSleeveCollector">
-                    <img src="./images/camera.gif" class="slideIcon" /><img src="./images/settings.gif"
-                      class="slideIcon" /><img src="./images/media.gif" class="slideIcon" /><img
-                      src="./images/chrome.gif" class="slideIcon" />
+                    <img src="camera.gif" class="slideIcon" /><img src="settings.gif"
+                      class="slideIcon" /><img src="media.gif" class="slideIcon" /><img
+                      src="chrome.gif" class="slideIcon" />
                   </div>
                 </div>
                 <p class="bold ellipsis gameName" data-str-id="systemApps"></p>
@@ -99,25 +99,25 @@
             <ul class="flex gameList wrap">
               <li class="pointer" onclick="handleClick('android')">
                 <div class="imageContainer">
-                  <img src="./images/settings.gif" alt="bsApp" />
+                  <img src="settings.gif" alt="bsApp" />
                 </div>
                 <p class="bold ellipsis gameName">Android Settings</p>
               </li>
               <li class="pointer" onclick="handleClick('media')">
                 <div class="imageContainer ">
-                  <img src="./images/media.gif" alt="bsApp" />
+                  <img src="media.gif" alt="bsApp" />
                 </div>
                 <p class="bold ellipsis gameName">Media Manager</p>
               </li>
               <li class="pointer" onclick="handleClick('chrome')">
                 <div class="imageContainer ">
-                  <img src="./images/chrome.gif" alt="bsApp" />
+                  <img src="chrome.gif" alt="bsApp" />
                 </div>
                 <p class="bold ellipsis gameName">Browser</p>
               </li>
               <li class="pointer" onclick="handleClick('camera')">
                 <div class="imageContainer ">
-                  <img src="./images/camera.gif" alt="bsApp" />
+                  <img src="camera.gif" alt="bsApp" />
                 </div>
                 <p class="bold ellipsis gameName">Camera</p>
               </li>
