@@ -135,7 +135,7 @@ img {
 }
 
 .Assets.container.library {
-  background-image: url("../images/wallpaper.jpg");
+  background-image: url("wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -200,7 +200,7 @@ img {
   width: 16px;
   height: 16px;
   background-size: 16px 16px;
-  background-image: url("../images/searchIcon.png");
+  background-image: url("searchIcon.png");
   background-repeat: no-repeat;
   flex-shrink: 0;
 }
@@ -229,7 +229,7 @@ img {
 }
 
 .stickyScrollHeader {
-  background-image: url("../images/wallpaper.jpg");
+  background-image: url("wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -296,7 +296,7 @@ img {
   width: 24px;
   height: 24px;
   background-size: 24px 24px;
-  background-image: url("../images/helpIcon.png");
+  background-image: url("helpIcon.png");
   margin-right: 10px;
 }
 
